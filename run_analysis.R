@@ -77,5 +77,5 @@ all_data <- cbind(x_data, y_data, subject_data)
 ###################################################################
 averages_data <- ddply(all_data, .(subject, activity), function(x) colMeans(x[, 1:66]))
 
-write.table(averages_data, "averages_data.txt", row.name=FALSE)
+write.table(averages_data, "tidy_data.txt", row.name=FALSE)
 
