@@ -3,7 +3,7 @@
 
 This is the summarizes the resulting data fields in tidy_data.txt
 
-# Varibles
+# Variables
 
 * x_train, y_train, x_test, y_test, subject_train and subject_test contain the data.
 * x_data, y_data and subject_data merge data.
